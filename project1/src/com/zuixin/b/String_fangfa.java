@@ -99,6 +99,8 @@ public class String_fangfa {
     }
 
     // 字符数字变为int数字
+
+    // about22222
     public static int str_int(String str){
         int sum =0;
         for (int i = 0; i < str.length(); i++) {
