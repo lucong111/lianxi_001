@@ -66,6 +66,12 @@ public class String_fangfa {
 
 
     }
+
+// about
+// about
+
+
+
 // steam添加的
     // 自己写的计算一个字符串在另一个字符串出现的次数
     public static int str_chuxian(String str, String chuxian_str){
