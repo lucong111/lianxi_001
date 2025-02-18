@@ -1,0 +1,16 @@
+git config --global user.name "lucong111"			github用户名
+git config --global user.email "835148714@qq.com"			github邮箱
+git config --list						查看是否配置成功
+ssh-keygen -t rsa -b 4096 -C "835148714@qq.com"			生成密钥---有yes的填yes其他一直回车
+cat ~/.ssh/id_rsa.pub						查看密钥
+github要将密钥添加上去--添加完成会密码验证
+ssh -T git@github.com					查看是否可以成功
+git init							将文件夹变为github文件夹
+git remote						查看远程仓库信息
+git remote add origin git@github.com:lucong111/lianxi_001.git		连接远程仓库
+git remote -v						查看是否连接成功
+git pull origin master						将远程仓库拉取到本地仓库master分支上
+git add .
+git status
+git commit -m "2222"
+git push origin master					将本地仓库master分支推送到远程仓库
