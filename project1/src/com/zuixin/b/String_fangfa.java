@@ -88,6 +88,8 @@ public class String_fangfa {
     }
 // 89行about
     // 计算一个字符串在另一个字符串出现的次数       标准的
+    // 222
+    // 333
     public static int str_count(String str, String str_zhaode){
         int count = 0;
         int index;
