@@ -105,6 +105,7 @@ public class String_fangfa {
             int a = str.charAt(i)-48;
             sum =sum*10+a;
         }
+        // 108行steam
         return sum;
     }
 
